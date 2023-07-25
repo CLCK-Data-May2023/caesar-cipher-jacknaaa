@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "caesar test",
+      "setup": "pip install pytest",
+      "run": "pytest tests.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
