@@ -1,4 +1,3 @@
-# add your code here
 encryption_characters = {"a": "f",
               "b": "g",
               "c": "h",
@@ -45,4 +44,4 @@ for i in main_sentence:
     encrypted_sentence.append(encryption(i))
 es_answer = ' '.join(encrypted_sentence)
 
-print("The encrypted sentence is: " + f"{es_answer}")
+print(f"The encrypted sentence is: {es_answer}")
